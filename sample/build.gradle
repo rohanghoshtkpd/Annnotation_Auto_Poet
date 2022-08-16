@@ -9,6 +9,8 @@ repositories{
 
 dependencies{
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+    implementation project(":sdk")
+    kapt project(":sdk_generator")
 }
 
 compileKotlin{
