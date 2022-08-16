@@ -1,0 +1,6 @@
+
+rootProject.name = 'ap'
+include("sample")
+include("sdk")
+include("sdk_generator")
+
